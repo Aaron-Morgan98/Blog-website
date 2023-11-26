@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+    margin: 0;
+    
+}
+
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+
+.header {
+    background: linear-gradient(300deg, #DDF2FD, #9BBEC8, #427D9D);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite; 
+}
+
+
+.postTitle {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.blogPost {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+
+
+
+.latestPosts {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+
+.footer {
+    background: linear-gradient(300deg, #DDF2FD, #9BBEC8, #427D9D);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 30px;
+    text-align: center;
+}
+
+
+
